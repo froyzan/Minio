@@ -12,14 +12,18 @@
 
 ## Установка
 
+1. Установка и запуск Minio
   ```bash
   git clone https://github.com/froyzan/Minio.git
   cd Minio
+  chmod +x setup_minio.sh
+  ```
+2. Установка и запуск Python
+  ```bash
   python3 -m venv venv
   source venv/bin/activate
   pip install -r requirements.txt
   ```
-
 
 Использование
 Загрузка файла:
