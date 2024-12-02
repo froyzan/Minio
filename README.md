@@ -17,8 +17,9 @@
   git clone https://github.com/froyzan/Minio.git
   cd Minio
   chmod +x setup_minio.sh
+  sudo ./setup_minio.sh
   ```
-2. Установка и запуск Python
+2. Установка зависимостей
   ```bash
   python3 -m venv venv
   source venv/bin/activate
