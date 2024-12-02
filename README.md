@@ -1,6 +1,6 @@
 # FastAPI MinIO File Storage
 
-![Minio Console](minio22.jpg) <!-- Замените на путь к вашему изображению -->
+![Minio Console](minio2.jpg) <!-- Замените на путь к вашему изображению -->
 
 Это приложение на FastAPI позволяет загружать и скачивать PDF-файлы в локальное хранилище MinIO. 
 
