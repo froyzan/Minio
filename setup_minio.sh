@@ -28,8 +28,8 @@ check_minio "minio"
 DATA_DIR="/mnt/data"
 sudo mkdir -p $DATA_DIR
 sudo chown $USER:$USER $DATA_DIR
-export MINIO_ROOT_USER="minioadm"
-export MINIO_ROOT_PASSWORD="miniopass"
+export MINIO_ROOT_USER="minioadmin"
+export MINIO_ROOT_PASSWORD="minioadmin"
 
 # Запуск MinIO в фоновом режиме
 if pidof "minio" > /dev/null; then
