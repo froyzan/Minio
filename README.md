@@ -12,19 +12,14 @@
 
 ## Установка
 
-1. Клонируйте репозиторий:
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
-   '''
+  ```bash
+  git clone https://github.com/froyzan/Minio.git
+  cd Minio
+  python3 -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+  ```
 
-2. Создайте виртуальное окружение (рекомендуется):
-'''bash
-python -m venv venv
-source venv/bin/activate
-
-3. Установите зависимостей:
-pip install -r requirements.txt
 
 Использование
 Загрузка файла:
