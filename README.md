@@ -25,6 +25,7 @@
   ```bash
   python3 list_buckets.py
   ```
+![List buckets](list_buckets.jpg) 
 
 `<link>` : <http://localhost:9001>
   ```html
