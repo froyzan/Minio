@@ -1,14 +1,11 @@
-# FastAPI MinIO File Storage
+# MinIO File Storage
 
-![Minio Console](minio.jpg) <!-- Замените на путь к вашему изображению -->
+![Minio Console](minio.jpg) 
 
-Это приложение на FastAPI позволяет загружать и скачивать PDF-файлы в локальное хранилище MinIO. 
 
 ## Особенности
 
-- Загрузка PDF-файлов в корзину `pdf_files`.
-- Скачивание PDF-файлов из корзины.
-- Получение списка файлов в корзине с информацией о каждом файле.
+- Получение списка корзин
 
 ## Установка
 
@@ -21,21 +18,16 @@
   ```
 2. Установка зависимостей
   ```bash
-  python3 -m venv venv
-  source venv/bin/activate
   pip install -r requirements.txt
   ```
 
-<link>http://localhost:9001
+3. Список корзин
+  ```bash
+  python3 list_buckets.py
+  ```
+
+`<link>` : <http://localhost:9001>
   ```html
   User: minioadmin
   Password: minioadmin
   ```
-
-Использование
-Загрузка файла:
-Отправьте POST-запрос на /upload/ с PDF-файлом.
-Скачивание файла:
-Отправьте GET-запрос на /download/{filename}, заменив {filename} на имя файла.
-Получение списка файлов:
-Отправьте GET-запрос на /files/, чтобы получить список всех файлов в корзине pdf_files.
