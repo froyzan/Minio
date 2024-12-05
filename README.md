@@ -4,11 +4,11 @@
 
 
 ## Особенности
-
-- Получение списка корзин
+- Установка и запуск MiniO: setup_minio.sh
+- Создание тестовых файлов: create_files.py
+- Получение списка корзин и файлов: list_buckets.py
 
 ## Установка
-
 1. Установка и запуск Minio
   ```bash
   git clone https://github.com/froyzan/Minio.git
@@ -20,8 +20,11 @@
   ```bash
   pip install -r requirements.txt
   ```
-
-3. Список корзин
+3. Создание и загрузка файлов
+  ```bash
+  python3 create_files.py
+  ```
+4. Вывод списка корзин и файлов
   ```bash
   python3 list_buckets.py
   ```
